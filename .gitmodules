@@ -7,3 +7,6 @@
 [submodule "headphonejack"]
 	path = headphonejack
 	url = https://github.com/jensmeder/FSKModem.git
+[submodule "serial"]
+	path = serial
+	url = https://github.com/jensmeder/iOS-Serial-Terminal.git
