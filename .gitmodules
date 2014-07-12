@@ -1,0 +1,9 @@
+[submodule "wifi"]
+	path = wifi
+	url = https://github.com/jensmeder/YunSerialPort.git
+[submodule "ble"]
+	path = ble
+	url = https://github.com/jensmeder/iOS-BLE-Terminal
+[submodule "headphonejack"]
+	path = headphonejack
+	url = https://github.com/jensmeder/FSKModem.git
