@@ -38,7 +38,7 @@ FSK uses two different frequencies to represent high and low states (e.g., 4 kHz
 
 WiFi is an easy option to connect your Arduino to an iOS devices. There are several Arduino WiFi shields available. One thing they have in common: they are all kind of pricy (ca. 65€). An alternative to buying a shield: buying an Arduino Yun (ca. 60€). 
 
-The Arduino Yun is a combines an Arduino Leonardo with an Atheros AR9331. Both parts can communicate with each other via a serial interface. The Atheros processor runs a special version of OpenWRT called OpenWRT-Yun. The Yun provides Ethernet and WiFi support, a USB host port, and a micro-SD card slot. Compared to WiFi shields you get several advantages:
+The Arduino Yun combines an Arduino Leonardo with an Atheros AR9331. Both parts can communicate with each other via a serial interface. The Atheros processor runs a special version of OpenWRT called OpenWRT-Yun. The Yun provides Ethernet and WiFi support, a USB host port, and a micro-SD card slot. Compared to WiFi shields you get several advantages:
 
 1. You can do resource intensive computation on the Atheros / OpenWRT side and then just pass the result over to the Arduino side.
 2. You save space for your Arduino sketch since you do not have to include the WiFi library.
