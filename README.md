@@ -26,6 +26,10 @@ Becoming member of the MFI program is not that easy. You have to fulfill certain
 
 ## Head phone jack
 
+You might remember the times when a high speed internet connection had 56kbit/sec. At that time we have used signal modulation to transmit digital data via analog land lines. One such modulation technique is FSK (frequency shift keying). With the help of FSK we can transmit data between iOS devices and Arduino via the head phone jack.
+
+FSK uses two different frequencies to represent high and low states (e.g., 4 kHz for low and 8kHz for high) by modulating a base carrier, e.g., a sine curve. Given a baud rate we can determine the duration of a single bit, e.g., a baud rate of 1000 bit / sec equals a bit duration of 1ms. If the majority of frequencies in this interval equals the frequency for a high state then we have a high state, etc. . 
+
 ## Bluetooth Low Energy
 
 ## Lightning / Dock serial cable
