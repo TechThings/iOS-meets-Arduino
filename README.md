@@ -3,6 +3,13 @@ iOS-meets-Arduino
 
 Documentation of my talk [iOS meets Arduino](http://www.developer-week.de/Programm/Veranstaltung/(event)/14147) at the [Developer Week 2014](http://www.developer-week.de) in Nuremberg, Germany. You can find the slides to this talk on [slideshare](http://www.slideshare.net/jensmeder/ios-meets-arduino).
 
+This repository references all libraries and examples that have been shown during the talk. If you want to check them out all at once simply clone this repository and then run the following commands:
+
+```
+cd iOS-meets-Arduino
+git submodule update --init
+```
+
 ## Overview
 
 1. [Apple's MFI program](README.md#apples-mfi-program)
